@@ -1732,10 +1732,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 # Rootdir
 vendor/lib64/libfft_vendor.so
 
-# Secure Element
-vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
-
 # Sensors
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/hw/sensors.elliptic.so:vendor/lib64/hw/sensors.elliptic@2.0.so
