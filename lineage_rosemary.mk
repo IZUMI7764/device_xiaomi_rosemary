@@ -24,7 +24,9 @@ PRODUCT_SYSTEM_NAME := rosemary_global
 PRODUCT_SYSTEM_DEVICE := rosemary
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
+WITH_GMS := true
+# Surface flinger boosting (Smoother scrolling, fewer frame drops but Keeps CPU slightly “awake”)
+SURFACE_FLINGER_BOOST := true
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="rosemary-user 12 SP1A.210812.016 V14.0.17.0.TFFMIXM release-keys" \
     BuildFingerprint=Redmi/rosemary_global/rosemary:12/SP1A.210812.016/V14.0.17.0.TFFMIXM:user/release-keys \
